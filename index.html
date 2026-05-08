@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Week 5 Cards</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Cards</h1>
+
+  <my-card title="First Card" fancy>
+    <p>This card has fancy styling and a toggle description.</p>
+  </my-card>
+
+  <my-card title="Second Card">
+    <p>This is another card using slot content.</p>
+  </my-card>
+
+  <my-card title="Third Card">
+    <p>Each card is reusable with different content.</p>
+  </my-card>
+
+  <script type="module" src="./src/my-card.js"></script>
+
+</body>
+
+</html>
